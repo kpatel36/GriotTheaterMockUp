@@ -1,0 +1,21 @@
+<!--for creating toggle bar in nav bar - goes under <button> portion to add brand name after class
+    "data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"-->
+
+
+    nav.flexbox {
+        display:flex;
+        justify-content: space-between;
+    
+        ul {
+            display:flex;
+            align-items: center;
+            
+            ul li {
+                margin-right:20px;
+                &: last-child {
+                    margin-right:0px;
+                }
+            }
+        } 
+    }
+    
